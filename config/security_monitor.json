@@ -1,0 +1,51 @@
+{
+  "agent": {
+    "id": "default-agent",
+    "hostname": "localhost"
+  },
+  "server": {
+    "url": "ws://localhost:8000/ws/agent",
+    "max_retries": 5,
+    "retry_delay": 5
+  },
+  "monitoring": {
+    "interval": 30
+  },
+  "file_monitoring": {
+    "enabled": true,
+    "watch_paths": [
+      "/tmp",
+      "/Users/amgad/Downloads",
+      "/Users/amgad/Desktop"
+    ],
+    "max_events": 1000
+  },
+  "system": {
+    "collect_processes": true,
+    "collect_network": true
+  },
+  "detection": {
+    "enabled": true,
+    "custom_rules": []
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/security_monitor.log"
+  },
+  "database": {
+    "url": "sqlite:///./data/security_monitor.db"
+  },
+  "email": {
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "username": "",
+    "password": "",
+    "use_tls": true
+  },
+  "reporting": {
+    "output_dir": "reports",
+    "auto_generate": false,
+    "schedule": "daily",
+    "recipients": []
+  }
+}
