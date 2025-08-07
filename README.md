@@ -287,7 +287,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 Security is our top priority. To report security vulnerabilities:
 
 - **DO NOT** create public GitHub issues
-- Email security concerns to [your-security-email@domain.com]
+- Email security concerns to [amgad dot salama at acm dot org]
 - See our [Security Policy](SECURITY.md) for details
 
 ## 📋 Roadmap & Future Features
@@ -312,7 +312,7 @@ Vote on features or suggest new ones in [GitHub Discussions](https://github.com/
 - 📖 **Documentation**: Start with this README and [DEPLOYMENT.md](DEPLOYMENT.md)
 - 🐞 **Bug Reports**: Use [GitHub Issues](https://github.com/yourusername/security-monitor/issues)
 - 💬 **Questions**: Use [GitHub Discussions](https://github.com/yourusername/security-monitor/discussions)
-- 📧 **Security Issues**: Email [your-security-email@domain.com]
+- 📧 **Security Issues**: Email [amgad dot salama at acm dot org]
 
 ### Community
 - ⭐ **Star this repo** if you find it useful
